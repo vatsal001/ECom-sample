@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const init = () => {
   mongoose.connect(
-    "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "mongodb+srv://abc:123@cluster0.1or3y.mongodb.net/PieceOfHeaven?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useCreateIndex: true,
